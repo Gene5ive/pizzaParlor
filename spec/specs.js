@@ -7,7 +7,7 @@ describe("Customer", function() {
   describe("this.pizza", function() {
     it("Orders pizza for a customer", function() {
       var john = new Customer("John");
-      expect(john.pizza(9, "cheese", 2)).to.equal("2 9-inch cheese pizzas");
+      expect(john.pizza(2)).to.equal("2 pizzas for John");
     });
   });
 });
